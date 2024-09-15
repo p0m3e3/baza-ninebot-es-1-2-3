@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+@import url("unmht://unmht/file.5/C:/Users/spbpe/Downloads/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9%20%D0%BF%D0%BE%20Ninebot%20ES1_2_4%20%281%29_112551.mhtml/css");
+
+@import url("unmht://unmht/file.5/C:/Users/spbpe/Downloads/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9%20%D0%BF%D0%BE%20Ninebot%20ES1_2_4%20%281%29_112551.mhtml/css.1");
+
+body { font-family: Roboto, arial, sans, sans-serif; margin: 0px; }
+
+iframe { border: 0px; height: 100%; width: 100%; }
+
+#banners { align-items: center; background: white; display: block; justify-content: space-between; position: fixed; top: 0px; width: 100%; z-index: 100; }
+
+#banners #publish-banner { background-color: rgb(232, 240, 254); border-bottom: 1px solid rgb(204, 204, 204); color: rgb(32, 33, 36); display: flex; flex: 1 1 0%; height: 60px; width: 100%; }
+
+#publish-banner-icon { display: flex; fill: rgb(25, 103, 210); margin: auto 20px; }
+
+#publish-banner-text { flex-grow: 1; margin: auto 0px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+#publish-banner-buttons { margin: auto 25px auto 0px; }
+
+#publish-banner-buttons span { align-self: center; background-color: inherit; border: none; font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px 16px 0px 32px; }
+
+#publish-banner-buttons a { color: rgb(25, 103, 210); cursor: pointer; font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 500; line-height: 24px; text-decoration: none; }
+
+#banners #title-banner { background: white; border-bottom: 1px solid rgb(204, 204, 204); display: flex; flex: 1 1 0%; height: 60px; width: 100%; }
+
+#banners #title-banner #title { flex-grow: 1; font-family: "Google Sans"; font-size: large; margin: auto 0px auto 20px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 70%; }
+
+#banners #title-banner #interval { margin: auto 25px auto 0px; font-family: Roboto; font-size: small; }
+
+#footer { background: rgb(240, 240, 240); border-bottom: 1px solid rgb(204, 204, 204); bottom: 0px; font-family: Roboto; font-size: small; padding: 10px; position: fixed; text-align: center; width: 100%; }
+
+#contents { padding: 100px 20% 50px; }
+
+@media only screen and (max-device-width: 800px) {
+  #banners #title-banner { border-bottom-width: 5px; height: auto; display: block; }
+  #banners #title-banner #title { font-size: 3em; margin: auto 0px auto 20px; width: 90%; }
+  #banners #title-banner #interval { font-size: 1.5em; margin: 10px 0px auto 25px; }
+  #contents { padding: 150px 5% 80px; }
+  #footer { font-size: 2em; }
+}
+
+.dash { padding: 0px 6px; }
